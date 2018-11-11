@@ -2,7 +2,7 @@ import turtle
 from PIL import Image
 import io
 
-res = 3
+res = 1
 
 tina = turtle.Turtle()
 tina.shape('turtle')
@@ -30,7 +30,7 @@ def plot_point( x, y, c ):
 
 
 #for a in range(-200, 100, res):
-for a in range(-150, 100, res):
+for a in range(-150, 75, res):
 #    for b in range(-150, 150, res):
     for b in range(-125, 125, res):
         z = (0,0)
